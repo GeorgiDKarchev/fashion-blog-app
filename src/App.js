@@ -7,12 +7,11 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div  style={{
+    <div className="App"  style={{
       border:"5px solid black",
       display: "flex",
       alignItems: "center",
       justifyContent:"center",
-    
       }}>
       <Header/>
       <Nav/>
