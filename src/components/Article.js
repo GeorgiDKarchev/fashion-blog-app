@@ -24,7 +24,7 @@ function Article() {
                 </p>
             </div>
 
-            <div className="articleOne">
+            <div className="articleTwo">
                 <h5>11/11/20</h5>
                 <h2>Vintage in Vogue</h2>
                 <img src={imageTwo}

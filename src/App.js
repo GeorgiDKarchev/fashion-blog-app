@@ -1,3 +1,4 @@
+import {Container,  Title} from "./styled";
 import React from "react"
 import './App.css';
 import Header from './components/Header';
@@ -7,17 +8,12 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App"  style={{
-      border:"5px solid black",
-      display: "flex",
-      alignItems: "center",
-      justifyContent:"center",
-      }}>
-      <Header/>
-      <Nav/>
-      <Article/>
-      <Footer/>
-    </div>
+     <Container>
+       <Header/>
+       <Nav/>
+       <Article/>
+       <Footer/>
+      </Container>
   );
 }
 
