@@ -1,4 +1,4 @@
-import {Container,  Title} from "./styled";
+import {Container, Title, NavUl, MenuBotom } from "./styled";
 import React from "react"
 import './App.css';
 import Header from './components/Header';

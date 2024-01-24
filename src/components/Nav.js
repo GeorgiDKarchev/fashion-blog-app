@@ -1,8 +1,9 @@
 import React from "react"
+import{NavUl} from "../styled";
 function Nav() {
     return (
         <nav >
-            <ul>
+            <NavUl>
                 <li>
                 <a href=" ">Women's</a>
                 </li>
@@ -20,7 +21,7 @@ function Nav() {
                 </li>
                 <li>
                 <a href=" ">About</a></li>
-            </ul>
+            </NavUl>
 
 
         </nav>

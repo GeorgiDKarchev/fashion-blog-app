@@ -1,11 +1,11 @@
 import React from "react"
-import {footer} from "../styled";
+import {MenuBotom} from "../styled";
 
 
 function Footer() {
     return (
         <footer>
-            <ul>
+            <MenuBotom>
                 <li>
                 <a href=" ">Home</a>
                 </li>
@@ -28,7 +28,7 @@ function Footer() {
                 </li>
                 <li>
                 <a href=" ">Tips</a></li>
-            </ul>
+            </MenuBotom>
         </footer>
     );
 }
